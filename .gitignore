@@ -1,0 +1,85 @@
+# =========================
+# Python cache
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+env/
+.venv/
+
+# =========================
+# Jupyter Notebook checkpoints
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# VS Code / IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Temp files
+# =========================
+*.tmp
+*.temp
+
+# =========================
+# Large ML files
+# =========================
+*.h5
+*.pt
+*.pth
+*.ckpt
+
+# =========================
+# Datasets(ignore everything inside data and datasets , will only track .txt
+# =========================
+data/*
+!data/*.txt
+!data/
+datasets/*
+!datasets/*.txt
+!datasets/
+
+# =========================
+# Experiment outputs
+# =========================
+outputs/
+runs/
+wandb/
+mlruns/
+
+# =========================
+# Environment variables
+# =========================
+.env
+
+# =========================
+# Python version
+# =========================
+.python-version
+
+# =========================
+# References (cloned repos)
+# =========================
+references/cloned_repos/*
+!references/cloned_repos/*.txt
+!references/cloned_repos/
