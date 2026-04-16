@@ -1,0 +1,3 @@
+[submodule "phitron-ai-ml"]
+	path = phitron-ai-ml
+	url = https://github.com/itskawsarjamil/phitron-ai-ml
