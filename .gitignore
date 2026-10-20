@@ -1,3 +1,4 @@
+campusx/notes/*
 # =========================
 # Python cache
 # =========================
@@ -52,12 +53,12 @@ Thumbs.db
 # =========================
 # Datasets(ignore everything inside data and datasets , will only track .txt
 # =========================
-data/*
-!data/*.txt
-!data/
-datasets/*
-!datasets/*.txt
-!datasets/
+# data/*
+# !data/*.txt
+# !data/
+# datasets/*
+# !datasets/*.txt
+# !datasets/
 
 # =========================
 # Experiment outputs
@@ -80,6 +81,6 @@ mlruns/
 # =========================
 # References (cloned repos)
 # =========================
-references/cloned_repos/*
-!references/cloned_repos/*.txt
-!references/cloned_repos/
+# references/cloned_repos/*
+# !references/cloned_repos/*.txt
+# !references/cloned_repos/
